@@ -1,0 +1,149 @@
+.about-page {
+  background: #f7f7f7;
+  padding: 80px 0;
+}
+
+.about-hero {
+  max-width: 700px;
+}
+
+.about-hero span {
+  color: #6bb6df;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.about-hero h1 {
+  font-size: 54px;
+  line-height: 1.15;
+  margin: 20px 0;
+  color: #6bb6df;
+}
+
+.about-hero p {
+  color: #555;
+  font-size: 18px;
+  max-width: 600px;
+  line-height: 1.8;
+}
+
+.trusted {
+  margin-top: 20px;
+  color: #d67a1f;
+  font-weight: 600;
+}
+
+
+
+.clients-slider {
+  overflow: hidden;
+  width: 100%;
+  background: #fff;
+}
+
+.clients-track {
+  display: flex;
+  align-items: center;
+  width: max-content;
+  animation: scrollLeft 20s linear infinite;
+}
+.about-content {
+  margin: 5px 0;
+}
+
+.about-content p {
+  color: #444;
+  line-height: 1.9;
+  margin-bottom: 20px;
+}
+
+.facts-section {
+  margin: 80px 0;
+}
+
+.facts-section h2 {
+  color: #6bb6df;
+  margin-bottom: 30px;
+}
+
+.facts-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.fact-card {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.fact-card h3 {
+  color: #6bb6df;
+  font-size: 40px;
+}
+
+.two-column {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  margin: 80px 0;
+}
+
+.two-column h2,
+.values-section h2 {
+  color: #6bb6df;
+  margin-bottom: 20px;
+}
+
+.two-column ul,
+.values-section ul {
+  padding-left: 20px;
+}
+
+.two-column li,
+.values-section li {
+  margin-bottom: 12px;
+  line-height: 1.7;
+}
+
+.values-section {
+  margin-bottom: 80px;
+}
+
+.about-cta {
+  text-align: center;
+  background: white;
+  padding: 60px;
+  border-radius: 16px;
+}
+
+.about-cta h2 {
+  color: #6bb6df;
+  margin-bottom: 15px;
+}
+
+.about-cta button {
+  margin-top: 20px;
+  background: #6bb6df;
+  color: white;
+  border: none;
+  padding: 14px 32px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+h2 {
+   font-size: 30px;
+   color: #6bb6df;
+}
+@media (max-width: 768px) {
+  .facts-grid,
+  .two-column {
+    grid-template-columns: 1fr;
+  }
+
+  .about-hero h1 {
+    font-size: 38px;
+  }
+}

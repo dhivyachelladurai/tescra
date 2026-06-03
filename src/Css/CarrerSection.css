@@ -1,0 +1,84 @@
+.careers-section {
+  background: #f5f5f5;
+  padding: 80px 0;
+}
+
+.career-header {
+  max-width: 700px;
+  margin-bottom: 60px;
+}
+
+.career-header span {
+  color: #63b3e3;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.career-header h2 {
+  font-size: 52px;
+  line-height: 1.15;
+  color: #63b3e3;
+  margin: 15px 0;
+  font-weight: 700;
+}
+
+.career-header h3 {
+  font-size: 42px;
+  line-height: 1.2;
+  color: #63b3e3;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.career-header p {
+  color: #666;
+  font-size: 18px;
+  line-height: 1.8;
+  max-width: 700px;
+}
+
+.jobs-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px 40px;
+}
+
+.job-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.job-content {
+  flex: 1;
+}
+
+.job-content h4 {
+  font-size: 26px;
+  line-height: 1.3;
+  color: #333;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.job-content p {
+  color: #444;
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+.apply-btn {
+  min-width: 180px;
+  height: 42px;
+  border: none;
+  background: #63c86b;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.apply-btn:hover {
+  background: #4db556;
+}

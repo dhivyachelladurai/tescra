@@ -1,0 +1,106 @@
+.why-tescra {
+  position: relative;
+  width: 100%;
+  min-height: 300px;
+
+  background: url("https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=1920")
+    center center/cover no-repeat;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+/* Dark blue overlay */
+.why-overlay {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 15, 50, 0.75);
+  padding: 60px 20px;
+}
+
+/* Optional blue glow */
+.why-overlay::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 40px;
+  height: 3px;
+  /* background: rgba(0, 194, 255, 0.7); */
+  /* box-shadow: 0 0 40px rgba(0, 194, 255, 0.8); */
+}
+
+.why-content {
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.why-content h2 {
+  font-family: var(--font-display);
+  font-size: 52px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 18px;
+}
+
+.why-subtitle {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 28px;
+}
+
+.why-description {
+  color: rgba(255, 255, 255, 0.95);
+  font-size: 18px;
+  line-height: 1.9;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.why-description strong {
+  color: #ffffff;
+  font-weight: 700;
+}
+
+/* Responsive */
+
+@media (max-width: 992px) {
+  .why-content h2 {
+    font-size: 42px;
+  }
+
+  .why-subtitle {
+    font-size: 18px;
+  }
+
+  .why-description {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .why-tescra {
+    min-height: auto;
+  }
+
+  .why-overlay {
+    padding: 50px 20px;
+  }
+
+  .why-content h2 {
+    font-size: 34px;
+  }
+
+  .why-subtitle {
+    font-size: 16px;
+  }
+
+  .why-description {
+    font-size: 15px;
+    line-height: 1.8;
+  }
+}

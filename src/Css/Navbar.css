@@ -1,0 +1,141 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 74px;
+  background: #ffffff;
+  border-bottom: 1px solid #e5e7eb;
+  z-index: 1000;
+}
+
+.navbar-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-logo {
+  height: 52px;
+  width: auto;
+}
+
+.navbar-menu {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  list-style: none;
+}
+
+.navbar-menu a {
+  color: #111827;
+  font-size: 15px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.navbar-menu a:hover {
+  color: #f28c28;
+}
+
+.navbar-menu span {
+  font-size: 10px;
+  margin-left: 4px;
+}
+
+.divider {
+  color: #f28c28;
+  font-size: 18px;
+}
+
+.expert-btn {
+  background: #0c2f57;
+  color: #fff;
+  padding: 14px 32px;
+  border-radius: 999px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.expert-btn:hover {
+  background: #15467f;
+}
+
+@media (max-width: 1024px) {
+  .navbar-menu {
+    display: none;
+  }
+
+  .expert-btn {
+    display: none;
+  }
+}.dropdown {
+  position: relative;
+}
+
+.arrow {
+  font-size: 10px;
+  margin-left: 5px;
+  color: #f28c28;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 55px;
+  left: 0;
+  min-width: 260px;
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 10px 0;
+  list-style: none;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(15px);
+  transition: all 0.3s ease;
+  z-index: 1000;
+}
+
+.services-menu {
+  min-width: 420px;
+}
+
+.dropdown:hover .dropdown-menu {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.dropdown-menu li {
+  width: 100%;
+}
+
+.dropdown-menu li a {
+  display: block;
+  padding: 12px 20px;
+  color: #111827;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.dropdown-menu li a:hover {
+  background: #fff7ed;
+  color: #f28c28;
+  padding-left: 26px;
+}
+
+.dropdown:hover > a {
+  color: #f28c28;
+}
+
+.dropdown:hover .arrow {
+  transform: rotate(180deg);
+}
+
+.arrow {
+  display: inline-block;
+  transition: 0.3s ease;
+}
