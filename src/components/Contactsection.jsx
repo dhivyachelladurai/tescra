@@ -1,4 +1,3 @@
-import { useState } from "react";
 import "../Css/ContactSection.css";
 
 const offices = [
@@ -26,31 +25,9 @@ const offices = [
 ];
 
 export default function ContactSection() {
-  const [form, setForm] = useState({
-    name: "",
-    email: "",
-    phone: "",
-    message: "",
-  });
 
-  const handleChange = (e) => {
-    setForm({
-      ...form,
-      [e.target.name]: e.target.value,
-    });
-  };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    console.log(form);
 
-    setForm({
-      name: "",
-      email: "",
-      phone: "",
-      message: "",
-    });
-  };
 
   return (
   <section className="contact-section" id="contact">

@@ -11,12 +11,6 @@ import adobe from "../Assets/adobe.png";
 import amdocs from "../Assets/amdocs.png";
 import lowes from "../Assets/lowes.png";
 
-const stats = [
-  { number: "18+", label: "Years Experience" },
-  { number: "600+", label: "Employees" },
-  { number: "500+", label: "Projects" },
-  { number: "15+", label: "Global Offices" },
-];
 
 const clients = [
   { name: "LG", logo: lg },

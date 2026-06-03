@@ -20,7 +20,7 @@ export default function AboutSection({ onNavigate }) {
               solutions that align with their goals and industry demands.
             </p>
 
-            <a  className="about-btn" onClick={(event) => onNavigate?.("about")}>
+            <a  className="about-btn" href="#about" onClick={(event) => onNavigate?.("about")}>
               → About us
             </a>
           </div>

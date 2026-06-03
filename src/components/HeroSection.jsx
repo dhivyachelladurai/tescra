@@ -24,7 +24,7 @@ export default function HeroSection({ onNavigate }) {
           ahead in the ever-evolving digital landscape.
         </p>
 
-        <a  className="hero-btn" onClick={(event) => onNavigate?.("about")}>
+        <a  className="hero-btn" href="#about" onClick={(event) => onNavigate?.("about")}>
           → About us
         </a>
       </div>

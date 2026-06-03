@@ -29,38 +29,38 @@ export default function Footer({ onNavigate, onSelect, onSelectIndustry }) {
         <div className="footer-top">
           <div>
             <h4>Quick Links</h4>
-            <a onClick={(event) => handleNavigate(event, "about")}>
+            <a href="#about" onClick={(event) => handleNavigate(event, "about")}>
               About us
             </a>
-            <a onClick={(event) => handleNavigate(event, "partner")}>
+            <a href="#partner" onClick={(event) => handleNavigate(event, "partner")}>
               Partner Galaxy
             </a>
-            <a onClick={(event) => handleNavigate(event, "awards")}>
+            <a href="#awards" onClick={(event) => handleNavigate(event, "awards")}>
               Awards & Recognition
             </a>
           </div>
 
           <div>
             <h4>Industries</h4>
-            <a href="#" onClick={(event) => onSelectIndustry?.("banking") || handleNavigate(event, "industry")}>
+            <a href="#banking" onClick={(event) => onSelectIndustry?.("banking") || handleNavigate(event, "industry")}>
               Banking and Financial Services
             </a>
-            <a href="#" onClick={(event) => onSelectIndustry?.("insurance") || handleNavigate(event, "industry")}>
+            <a href="#insurance" onClick={(event) => onSelectIndustry?.("insurance") || handleNavigate(event, "industry")}>
               Insurance
             </a>
-            <a href="#" onClick={(event) => onSelectIndustry?.("aerospace") || handleNavigate(event, "industry")}>
+            <a href="#aerospace" onClick={(event) => onSelectIndustry?.("aerospace") || handleNavigate(event, "industry")}>
               Aerospace
             </a>
-            <a href="#" onClick={(event) => onSelectIndustry?.("automobile") || handleNavigate(event, "industry")}>
+            <a href="#automobile" onClick={(event) => onSelectIndustry?.("automobile") || handleNavigate(event, "industry")}>
               Automobile
             </a>
-            <a href="#" onClick={(event) => onSelectIndustry?.("logistics") || handleNavigate(event, "industry")}>
+            <a href="#logistics" onClick={(event) => onSelectIndustry?.("logistics") || handleNavigate(event, "industry")}>
               Logistics
             </a>
-            <a href="#" onClick={(event) => onSelectIndustry?.("retail") || handleNavigate(event, "industry")}>
+            <a href="#retail" onClick={(event) => onSelectIndustry?.("retail") || handleNavigate(event, "industry")}>
               Retail & E-commerce
             </a>
-            <a href="#" onClick={(event) => onSelectIndustry?.("manufacturing") || handleNavigate(event, "industry")}>
+            <a href="#manufacturing" onClick={(event) => onSelectIndustry?.("manufacturing") || handleNavigate(event, "industry")}>
               Manufacturing
             </a>
           </div>
@@ -73,38 +73,38 @@ export default function Footer({ onNavigate, onSelect, onSelectIndustry }) {
             }}>
               Blogs
             </a>
-            <a href="#" onClick={(event) => handleNavigate(event, "case-studies")}>
+            <a href="#case-studies" onClick={(event) => handleNavigate(event, "case-studies")}>
               Case Studies
             </a>
-            <a href="#" onClick={(event) => handleNavigate(event, "newsletter")}>
+            <a href="#newsletter" onClick={(event) => handleNavigate(event, "newsletter")}>
               Newsletter
             </a>
-            <a href="/culture" onClick={(event) => handleNavigate(event, "culture")}>
+            <a href="#culture" onClick={(event) => handleNavigate(event, "culture")}>
               Our Culture
             </a>
-            <a href="/portfolio" onClick={(event) => handleNavigate(event, "portfolio")}>
+            <a href="#portfolio" onClick={(event) => handleNavigate(event, "portfolio")}>
               Our Prestige Portfolio
             </a>
           </div>
 
           <div>
             <h4>Services</h4>
-            <a href="#" onClick={(event) => handleService(event, "ai-services")}>
+            <a href="#ai-services" onClick={(event) => handleService(event, "ai-services")}>
               AI and Generative AI Services
             </a>
-            <a href="#" onClick={(event) => handleService(event, "software-development")}>
+            <a href="#software-development" onClick={(event) => handleService(event, "software-development")}>
               Custom Software Development
             </a>
-            <a href="#" onClick={(event) => handleService(event, "application-management")}>
+            <a href="#application-management" onClick={(event) => handleService(event, "application-management")}>
               Application Management
             </a>
-            <a href="#" onClick={(event) => handleService(event, "data-automation")}>
+            <a href="#data-automation" onClick={(event) => handleService(event, "data-automation")}>
               Data Driven Intelligent Automation
             </a>
-            <a href="#" onClick={(event) => handleService(event, "cloud-engineering")}>
+            <a href="#cloud-engineering" onClick={(event) => handleService(event, "cloud-engineering")}>
               Cloud Engineering
             </a>
-            <a href="#" onClick={(event) => handleService(event, "global-capability-centres")}>
+            <a href="#global-capability-centres" onClick={(event) => handleService(event, "global-capability-centres")}>
               Global Capability Centres
             </a>
           </div>
